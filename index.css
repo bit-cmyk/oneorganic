@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* Set the background color to a dark shade */
+    color: #000000;
+    /* Set text color to white */
+}
+
+header {
+    background-color: #12372A;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.navbar-text {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+
+}
+
+.navbar-text:hover {
+    color: #ADBC9F;
+}
+
+section {
+    padding: 1em 0;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-info {
+    color: #6c757d;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: #12372A;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.read-more-btn {
+    background-color: #436850;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    background-position: center;
+    background-size: cover;
+}
+
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+    opacity: 0.7;
+}
+
+.highlighted-word {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+image-container {
+    max-width: 500px;
+    /* Set the maximum width for the container */
+    margin: auto;
+    /* Center the container */
+}
+
+.image-container img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the container width */
+    height: auto;
+    /* Maintain the aspect ratio */
+    display: block;
+    /* Remove extra space below inline images */
+}
+
+.social-menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 16px;
+}
+
+.social-menu ul li .fa-brands {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #1877F2;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #E4405F;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0A66C2;
+}
